@@ -3,17 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Web Site</title>
+    <title>Anime</title>
     <link rel="stylesheet" href= "style.css"/>
     <link rel="stylesheet" href= "mediaqueries.css"/>
   </head>
   <body>
     <nav id="desktop=nav">
-      <div class = "logo">Anime Reviews</div>
+      <div class = "logo">Our Anime Recommendations</div>
       <div>   
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Rupert's Anime Recommendation</a></li>
-          <li><a href="#projects">Macki's Anime Recommendation</a></li>
+          <li><a href="#rupert">Rupert's Anime Recommendation</a></li>
+          <li><a href="#macki">Macki's Anime Recommendation</a></li>
         </ul>
       </div>   
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Here are our Anime Recommendations</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#rupert" onclick="toggleMenu()">Rupert's Anime Recommendation</a></li>
+          <li><a href="#macki" onclick="toggleMenu()">Macki's Anime Recommendation</a></li>
+        </div>
+      </div>
