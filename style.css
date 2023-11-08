@@ -86,7 +86,7 @@ a:hover {
 
 
   #rupertexplore {
-    font-size: 2rem;
+    font-size: 3rem;
     height: 100;
     margin: 10rem;
    
@@ -98,83 +98,61 @@ a:hover {
     margin: 5rem;
    
   }
-  .section-container {
-    display: flex;
-  }
 
-/* rupertaot,cm,ditf */
+  #mackigin {
+    padding-top: 0;
+    height: 200vh;
+    margin: 5rem;
+
+  }
+  
+
+  #mackiinitiald {
+    padding-top: 0;
+    height: 210vh;
+    margin: 5rem;
+  }
+  
+
+  #macki7deadly {
+    padding-top: 0;
+    height: 220vh;
+    margin: 5rem;
+  }
+  
 #rupertaot {
     padding-top: 0;
     height: 150vh;
     margin: 5rem;
-    box-sizing: border-box;
-    min-height: fit-content;
+
   }
   
 
   #rupertcm {
     padding-top: 0;
-    height: 99vh;
+    height: 150vh;
     margin: 5rem;
-    box-sizing: border-box;
-    min-height: fit-content;
   }
   
 
   #rupertditf {
-    padding-top: 10;
-    height: 160vh;
-    margin: 0rem;
-    box-sizing: border-box;
-    min-height: fit-content;
+    padding-top: 0;
+    height: 200vh;
+    margin: 5rem;
   }
   
 
-  /* Button */
+  
 
-.btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+  .nav-link{
+    text-align: center;
+    height: 15vh;
+  }
+  footer {
+    height: 26vh;
+    margin: 0 1rem;
   }
   
-  .btn {
-    font-weight: 600;
-    transition: all 300ms ease;
-    padding: 1rem;
-    width: 8rem;
-    border-radius: 2rem;
+  footer p {
+    text-align: center;
   }
-  
-  .btn-color-1,
-  .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
-  }
-  
-  .btn-color-1:hover,
-  .btn-color-2:hover {
-    cursor: pointer;
-  }
-  
-  .btn-color-1,
-  .btn-color-2:hover {
-    background: rgb(53, 53, 53);
-    color: white;
-  }
-  
-  .btn-color-1:hover {
-    background: rgb(2, 2, 2);
-  }
-  
-  .btn-color-2 {
-    background: none;
-  }
-  
-  .btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
-  }
-  
-  .btn-container {
-    gap: 1rem;
-  }
-  
