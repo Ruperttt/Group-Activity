@@ -5,10 +5,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url("/assets/wallpaper site.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 html {
@@ -55,6 +60,8 @@ a:hover {
 
 .logo {
   font-size: 3rem;
+  padding-top: 10;
+  margin: 5rem;
 }
 
 
@@ -79,29 +86,29 @@ a:hover {
 
 
   #rupertexplore {
-    font-size: 3rem;
-    height: 0;
+    font-size: 2rem;
+    height: 100;
     margin: 10rem;
+   
+  }
+
+  #mackiexplore {
+    font-size: 3rem;
+    height: 2;
+    margin: 5rem;
    
   }
   .section-container {
     display: flex;
   }
 
-  #about {
-    font-size: 2rem;
-    height: 99vh;
-    margin: 5rem;
-  }
-  
-
 /* rupertaot,cm,ditf */
 #rupertaot {
     padding-top: 0;
-    height: 110vh;
+    height: 150vh;
     margin: 5rem;
     box-sizing: border-box;
-    mi-height: fit-content;
+    min-height: fit-content;
   }
   
 
@@ -113,14 +120,11 @@ a:hover {
     min-height: fit-content;
   }
   
-  .section__rupertcm-container {
-    display: flex;
-  }
 
   #rupertditf {
-    padding-top: 0;
-    height: 96vh;
-    margin: 5rem;
+    padding-top: 10;
+    height: 160vh;
+    margin: 0rem;
     box-sizing: border-box;
     min-height: fit-content;
   }
