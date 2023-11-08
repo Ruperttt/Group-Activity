@@ -99,60 +99,11 @@ a:hover {
    
   }
 
-  #mackigin {
-    padding-top: 0;
-    height: auto;
-    margin: 5rem;
-
+  #rupertanime{
+    margin: 10rem;
+    display: block;
   }
-  
-
-  #mackiinitiald {
-    padding-top: 0;
-    height: auto;
-    margin: 5rem;
-  }
-  
-
-  #macki7deadly {
-    padding-top: 0;
-    height: auto;
-    margin: 5rem;
-  }
-  
-#rupertaot {
-    padding-top: 0;
-    height: auto;
-    margin: 5rem;
-
-  }
-  
-
-  #rupertcm {
-    padding-top: 0;
-    height: auto;
-    margin: 5rem;
-  }
-  
-
-  #rupertditf {
-    padding-top: 0;
-    height: auto;
-    margin: 5rem;
-  }
-  
-
-  
-
-  .nav-link{
-    text-align: center;
-    height: 15vh;
-  }
-  footer {
-    height: 26vh;
-    margin: 0 1rem;
-  }
-  
-  footer p {
-    text-align: center;
+  #mackianime{
+    margin: 10rem;
+    display: block;
   }
