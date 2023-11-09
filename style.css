@@ -1,7 +1,7 @@
 /* Html Document Setting */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 * {
   margin: 0;
@@ -24,8 +24,6 @@ html {
 p {
   color: rgb(160, 19, 19);
 }
-
-
 
 /* Desktop Navigation */
 
@@ -61,41 +59,45 @@ a:hover {
 }
 /* Icon */
 .icon {
-    cursor: pointer;
-    height: 10rem;
-  }
+  cursor: pointer;
+  height: 10rem;
+}
 /* Photo */
 .photo {
-    cursor: pointer;
-    height: 20rem;
-  }
+  cursor: pointer;
+  height: 20rem;
+}
 /* Image */
 .image {
-    cursor: pointer;
-    height: 5rem;
-  }
- #rupertexplore {
-    padding-top: 150px;
-    padding-left: 120px;
-    font-size: 3rem;
-    height: 1; 
-  }
-  #mackiexplore {
-    padding-top: 150px;
-    padding-left: 120px;
-    font-size: 3rem;
-    height: 1;
-  }
-  #rupertanime{
-    padding-left: 200px;
-    display: block;
-  }
-  #mackianime{
-    padding-left: 200px;
-    display: block;
-  }
-  .sub-title{
-    font-family: 'Abril Fatface', serif;
-    color: rgb(9, 9, 9);
-    font-size: 2rem;
-  }
+  cursor: pointer;
+  height: 5rem;
+}
+#rupertexplore {
+  padding-top: 150px;
+  padding-left: 120px;
+  font-size: 3rem;
+  height: 1;
+}
+#mackiexplore {
+  padding-top: 150px;
+  padding-left: 120px;
+  font-size: 3rem;
+  height: 1;
+}
+#rupertanime {
+  padding-left: 200px;
+  display: block;
+}
+#mackianime {
+  padding-left: 200px;
+  display: block;
+}
+.sub-title {
+  font-family: "Abril Fatface", serif;
+  color: rgb(9, 9, 9);
+  font-size: 2rem;
+}
+
+.rating {
+  padding-top: 30px;
+}
