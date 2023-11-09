@@ -93,9 +93,9 @@ a:hover {
   display: block;
 }
 .sub-title {
-  font-family: "Abril Fatface", serif;
+  font-family: "Poppins", serif;
   color: rgb(9, 9, 9);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .rating {
