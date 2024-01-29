@@ -85,12 +85,28 @@ a:hover {
   height: 1;
 }
 #rupertanime {
-  padding-left: 200px;
+  padding-left: auto;
   display: block;
+  max-width: 1000px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 3rem;
 }
 #mackianime {
   padding-left: 200px;
   display: block;
+  padding-left: auto;
+  display: block;
+  max-width: 1000px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 3rem;
 }
 .sub-title {
   font-family: "Poppins", serif;
